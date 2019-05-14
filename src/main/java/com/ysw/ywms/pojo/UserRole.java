@@ -1,9 +1,9 @@
-package com.ysw.ywms.entity;
+package com.ysw.ywms.pojo;
 
 import java.io.Serializable;
 
 /**
- * created by CaiBaoHong at 2018/4/17 14:55<br>
+ *
  */
 public class UserRole implements Serializable {
 

@@ -1,4 +1,4 @@
-package com.ysw.ywms.entity;
+package com.ysw.ywms.pojo;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -9,7 +9,7 @@ import java.util.Date;
 public class User implements Serializable {
     private Long uid;       // 用户id
     private String uname;   // 登录名，不可改类
-    private String nick;    // 用户昵称，可改
+    private String nickName;    // 用户昵称，可改
     private String pwd;     // 已加密的登录密码
     private String salt;    // 加密盐值
     private Date createDate;   // 创建时间
@@ -31,12 +31,12 @@ public class User implements Serializable {
         this.uname = uname;
     }
 
-    public String getNick() {
-        return nick;
+    public String getNickName() {
+        return nickName;
     }
 
-    public void setNick(String nick) {
-        this.nick = nick;
+    public void setNickName(String nickName) {
+        this.nickName = nickName;
     }
 
     public String getPwd() {
